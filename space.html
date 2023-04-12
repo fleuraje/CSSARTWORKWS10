@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PICASSO PAINTING</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PICASSO PAINTING PROJECT</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 </head>
+
 <body>
-    <div class="container">
-        <!-- Your grid items will go here -->
-      </div>
-      <body>
-        <div class="container">
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
-          <div class="grid-item"></div>
+  
+    <!-- Your grid items will go here -->
+  
+
+    <body>
+      <div class="container">
+        <div class="space">
+          <div class="planet"></div>
+          <div class="bigCircle"></div>
         </div>
-      </body>
-      
-      <style>
-        .container {
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: 50px 100px;
-        }
-      
-        .grid-item {
-          background-color: lightblue;
-          border: 1px solid black;
-          padding: 10px;
-          text-align: center;
-        }
-    </style>
+    
+        <div class="stars">
+          <span class="star1"></span>
+          <span class="star2"></span>
+          <span class="star3"></span>
+          <span class="star4"></span>
+        </div>
+    
+        <form>
+          <label for="name"> Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email"> Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </body>
+    
+  </body>
+
 </body>
+
 </html>
